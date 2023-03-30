@@ -1,0 +1,475 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover
+{
+    text-decoration: none;
+}
+
+body
+{   
+     background-color: transparent;
+    Font-size: 18px;
+    font-family: Barlow, Fraunces;    background-image: url(vaccine_bg.jpg);
+}
+
+.container
+{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.logo-menu-bar-div
+{
+    background-color: transparent;
+    box-sizing: border-box;
+    padding: 0 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 2%;
+}
+
+.site-logo
+{
+    font-family: Fraunces;
+    font-size: 3.5rem;
+    font-weight: 900;
+    color: black;
+}
+
+.site-logo a
+{
+    font-family: Fraunces;
+    font-size: 3.5rem;
+    font-weight: 900;
+    color: white;
+}
+
+.menu-bar-ul
+{
+    background-color: inherit;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu-bar-li
+{
+    background-color: transparent;
+    margin: 0 .5rem;
+    padding: .8rem 1.6rem;
+    color: white;
+}
+
+.menu-bar-li:last-child
+{
+    margin-right: 0;
+}
+
+.menu-bar-li:hover
+{
+    color: white;
+    border-radius: 30px;
+    font-weight: 700;
+    background: rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.menu-bar-li:active
+{
+    color: white;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.4);
+}
+  
+.header-title-div
+{
+    background-color: transparent;
+    position: absolute;
+    text-align: center;
+    top: 15%;
+    left: 0;
+    right: 0;
+}
+
+.header-title
+{
+    background-color: transparent;
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card
+{
+    margin-top: 15rem;
+    margin-left: 3rem;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    width: 95%;
+}
+
+.body-img
+{
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;    
+    margin: auto;
+}
+
+.card-2
+{
+    margin-top: 5rem;
+    margin-left: 3rem;
+    border: 5px solid white;
+    display: flex;
+    flex-direction: row;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    width: 95%;
+}
+
+.body-heading
+{
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:300;
+    margin: auto;
+    text-align: center;
+}
+
+.main-text
+{
+    margin-top: 5rem;
+    background-color: transparent;
+    color: white;
+    font-size: 5rem;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+.subtext
+{
+    margin-top: 5rem;
+    background-color: transparent;
+    color: white;
+    font-size: 3rem;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+.register-button
+{
+    text-decoration: none;
+    margin-top: 5rem;
+    display: inline-block;
+    border: none;
+    padding: 2rem;
+    box-shadow: 0 -1px 16px 0 antiquewhite;
+    border-radius: 50px;
+}
+
+.register-button :hover
+{
+    padding: 2rem;
+    text-decoration: none;
+    color: white;
+    border-radius: 50px;
+    font-weight: 700;
+    background: transparent;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.faq-heading
+{
+    background-color: transparent;
+    color: white;
+    font-size: 5rem;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:300;
+    margin: auto;
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.accordion 
+{
+    background-color:transparent;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 90%;
+    text-align: left;
+    border: 1px solid white;
+    outline: none;
+    transition: 0.4s;
+    margin-bottom: 1rem;
+    margin-left: 3rem;
+  }
+  
+
+  .active, .accordion:hover 
+  {
+    background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 8px 16px 0 white;
+  }
+  
+
+.panel 
+{
+    font-family: 'Times New Roman', Times, serif;
+    width: 90%;
+    margin-left: 3rem;
+    padding: 2rem 2rem;
+    background-color: transparent;
+    display: none;
+    overflow: hidden;
+    color: white;
+    box-shadow: 0 -1px 16px 0 antiquewhite;
+}
+
+.panel a:hover
+{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: transparent;
+    color: yellow;
+}
+
+
+
+@media only screen and (max-width: 1000px) 
+{
+    .site-logo{
+        font-size: 1rem;
+        font-weight: 900;
+        color: white;
+    }
+    .header-title--icon-div {
+        top: 25%;
+        left: 0;
+        right: 0;
+    }
+    .header-title--icon-div svg{
+        margin-top: 3rem;
+    }
+    .header-title{
+        padding: 0 2rem;
+        color: white;
+        font-size: 2rem;
+        margin-top: 13em;
+    }
+    .logo-menu-bar-div{
+        width: 100%;
+        justify-content: center;
+        margin-top: 1.8rem;
+    }
+    .menu-bar-ul{
+        display: none;
+    }
+    .menu-bar-open{
+        display: block;
+        background:transparent;
+        clip-path: polygon(0 15%, 88% 15%, 100% 5%, 100% 100%, 0 100%);
+        top: 10%;
+        width: 90%;
+        height: 55vh;
+        position: absolute;
+        margin: 5rem auto;
+        padding-top: 5rem;
+        z-index: 10;
+        text-align: center;
+    }
+    .menu-bar-open li{
+        padding: .6rem 1.2rem;
+        margin-top: 1rem;
+        color: hsl(232, 10%, 55%);
+    }
+    .menu-bar-open li a, .menu-bar-open li a:active{
+        color: hsl(232, 10%, 55%);
+    }
+    .menu-bar-open li a:hover{
+        color: hsl(212, 27%, 19%);
+        background: rgba(255, 255, 255, 0.4);
+    }
+    .menu-bar-li:hover, .menu-bar-li:active{
+        border-radius: 30px;
+        background: hsl(232, 10%, 55%);
+        cursor: pointer;
+        text-transform: uppercase;
+        width: fit-content;
+        margin: 1rem auto;
+    }
+    .menu-icon-div{
+        display: block;
+    }
+    
+    .card 
+    {
+        margin: auto;
+        border: none;
+        display: flex;
+        flex-direction: row;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        width: 95%;
+        margin-top: 35rem;
+    }
+
+        
+    .card-2
+    {
+        margin-top: 5rem;
+        margin-left: 3rem;
+        border: 5px solid white;
+        display: flex;
+        flex-direction: row;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        width: 95%;
+    }
+
+    .body-heading
+    {
+        background-color: transparent;
+        color: white;
+        font-size: 20px;
+        padding: 10px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight:300;
+        margin: auto;
+        text-align: center;
+    }
+
+    .main-text
+    {
+        margin-top: 5rem;
+        background-color: transparent;
+        color: white;
+        font-size: 4rem;
+        padding: 10px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 300;
+        text-align: center;
+    }
+
+    .subtext
+    {
+        margin-top: 5rem;
+        background-color: transparent;
+        color: white;
+        font-size: 2rem;
+        padding: 10px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 300;
+        text-align: center;
+    }
+
+    .register-button
+    {
+        text-decoration: none;
+        margin-top: 5rem;
+        display: inline-block;
+        border: none;
+        padding: 1rem;
+        box-shadow: 0 -1px 16px 0 antiquewhite;
+        border-radius: 50px;
+    }
+
+    .register-button :hover
+    {
+        padding: 2rem;
+        text-decoration: none;
+        color: white;
+        border-radius: 50px;
+        font-weight: 700;
+        background: transparent;
+        cursor: pointer;
+        text-transform: uppercase;
+    }
+
+    .faq-heading
+    {
+        background-color: transparent;
+        color: white;
+        font-size: 5rem;
+        padding: 10px;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight:300;
+        margin: auto;
+        text-align: center;
+        margin-top: 10rem;
+    }
+
+    .accordion 
+    {
+        background-color:transparent;
+        color: white;
+        cursor: pointer;
+        padding: 18px;
+        width: 90%;
+        text-align: left;
+        border: 1px solid white;
+        outline: none;
+        transition: 0.4s;
+        margin-bottom: 1rem;
+        margin-left: 3rem;
+    }
+    
+    .active, .accordion:hover 
+    {
+        background-color: rgba(255, 255, 255, 0.4);
+        box-shadow: 0 8px 16px 0 white;
+    }
+
+    .panel 
+    {
+        font-family: 'Times New Roman', Times, serif;
+        width: 90%;
+        margin-left: 3rem;
+        padding: 2rem 2rem;
+        background-color: transparent;
+        display: none;
+        overflow: hidden;
+        color: white;
+        box-shadow: 0 -1px 16px 0 antiquewhite;
+    }
+
+    .panel a:hover
+    {
+        font-family: 'Times New Roman', Times, serif;
+        background-color: transparent;
+        color: yellow;
+    }
+}

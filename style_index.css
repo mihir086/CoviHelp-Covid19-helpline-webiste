@@ -1,0 +1,683 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+}
+
+body
+{   
+     background-color: black;
+    Font-size: 18px;
+    font-family: Barlow, Fraunces;
+}
+
+.container
+{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.header-container
+{
+    width: 100%;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+.header-image
+{
+    max-width: 100%;
+    height: auto;
+}
+
+
+.logo-menu-bar-div
+{
+    background-color: transparent;
+    box-sizing: border-box;
+    padding: 0 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 2%;
+}
+
+.site-logo
+{
+    font-family: Fraunces;
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: black;
+}
+
+.site-logo a
+{
+    font-family: Fraunces;
+    font-size: 3.5rem;
+    font-weight: 900;
+    color: white;
+}
+
+.menu-bar-ul
+{
+    background-color: inherit;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu-bar-li
+{
+    background-color: transparent;
+    margin: 0 .5rem;
+    padding: .8rem 1.6rem;
+    color: white;
+}
+
+.menu-bar-li:last-child
+{
+    margin-right: 0;
+}
+
+.menu-bar-li:hover
+{
+    color: white;
+    border-radius: 30px;
+    font-weight: 700;
+    background: rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.menu-bar-li:active
+{
+    color: white;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.header-title-div
+{
+    background-color: transparent;
+    position: absolute;
+    text-align: center;
+    top: 25%;
+    left: 0;
+    right: 0;
+}
+
+.header-title
+{
+    background-color: transparent;
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: Fraunces;
+}
+
+.card
+{
+    margin-top: 4rem;
+    border: none;
+}
+
+.card-body
+{
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    font-family: Fraunces;
+}
+
+.chart-1
+{
+    margin-top: 2rem;
+}
+
+.chart-2
+{
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+
+html.IsInIframe #ExplorerContainer {
+    height: 100vh;
+    min-height: auto!important;
+    max-height: none;
+    padding: 3px;
+    background-color: white;
+}
+
+html.IsInIframe #ExplorerContainer {
+    height: 100vh;
+    min-height: auto!important;
+    max-height: none;
+    padding: 3px;
+    background-color: white;
+}
+
+
+.symptoms{
+    width: 100%;
+    margin-top: 0;
+    color: white;
+    background-color: black;
+}
+
+.section-2-heading
+{
+    margin-top: 5rem;
+    color: white;
+    font-size: 2rem;
+    font-weight: 900;
+    font-family: Fraunces;
+}
+
+.symptoms-container-boxes{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.symptoms-mini-box{
+    width: 50%;
+}
+.symptoms-mini-box-content{
+    padding-left: 10rem;
+    padding-right: 7rem;
+    line-height: 2rem;
+}
+.symptoms-title{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: hsl(211, 21%, 44%);
+    font-family: Fraunces;
+}
+.symptoms-p{
+    padding: 5px;
+    font-family: Fraunces;
+    font-size: 1.2rem;
+    color: hsl(232, 10%, 55%);
+}
+
+.service-mini-box-image{
+    width: 100%;
+    height: auto;
+}
+
+.symptoms-2{
+    flex-direction: row-reverse;
+    padding: 0;
+    width: 100%;
+}
+.symptoms-3{
+    margin-top: -4px;
+}
+.symptoms-with-caption{
+    position: relative;
+    width: 100%;
+    padding: 0;
+}
+.image-with-caption{
+    position: relative;
+    width: 100%;
+}
+.symptoms-caption{
+    position: absolute;
+    margin: 0 auto;
+    height: auto;
+    width: 50%;
+    bottom: 10%;
+    left: 0;
+    right: 0;
+    color: #000;
+    text-align: center;
+    color: hsl(167, 40%, 24%);
+}
+.symptoms-caption-title{
+    font-size: 1.5rem;
+    font-weight: 900;
+    font-family: Fraunces;
+}
+
+
+.precautions{
+    width: 100%;
+    margin-top: 0;
+    color: white;
+    background-color: black;
+}
+
+.section-3-heading
+{
+    margin-top: 5rem;
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: Fraunces;
+}
+
+.precautions-container-boxes{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.precautions-mini-box{
+    width: 50%;
+}
+.precautions-mini-box-content{
+    padding-left: 10rem;
+    padding-right: 7rem;
+    line-height: 2rem;
+}
+.precautions-title{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: hsl(211, 21%, 44%);
+    font-family: Fraunces;
+}
+.precautions-p{
+    padding: 5px;
+    font-family: Fraunces;
+    font-size: 1.2rem;
+    color: hsl(232, 10%, 55%);
+}
+
+.service-mini-box-image{
+    width: 100%;
+    height: auto;
+}
+
+.precautions-2{
+    flex-direction: row-reverse;
+    padding: 0;
+    width: 100%;
+}
+.precautions-3{
+    margin-top: -4px;
+}
+
+
+.services{
+    box-sizing: border-box;
+    width: 100%;
+    color: hsl(210, 4%, 67%);
+    padding: 2rem 10rem 7rem;
+    text-align: center;
+    font-family: Barlow;
+    margin-top: 5rem;
+}
+
+.services-title{
+    font-size: 2.5rem;
+    font-weight: 900;
+    font-family: Fraunces;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+.services-outer-class
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.services-inner-class
+{
+    width: 28%;
+    color: hsl(232, 10%, 55%);
+    padding: auto;
+}
+
+.services-avatar{
+    border-radius: 30%;
+    height: 70%;
+    width: 70%;
+    margin-bottom: 2rem;
+}
+
+.service-text
+{
+    font-family: Fraunces;
+    padding: 2rem;
+    font-size: 20px;
+}
+
+.footer{
+    margin-top: -5px;
+    background: black;
+    text-align: center;
+    padding: 5rem 0;
+    color: hsl(167, 40%, 24%);
+}
+.footer-site-logo{
+    font-family: Fraunces;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+
+@media only screen and (max-width: 1000px) 
+{
+    .site-logo{
+        font-size: 1rem;
+        font-weight: 900;
+        color: white;
+    }
+    .header-title--icon-div {
+        top: 25%;
+        left: 0;
+        right: 0;
+    }
+    .header-title--icon-div svg{
+        margin-top: 3rem;
+    }
+    .header-title{
+        padding: 0 2rem;
+        color: white;
+        font-size: 2rem;
+    }
+    .logo-menu-bar-div{
+        margin-top: 1.8rem;
+    }
+    .menu-bar-ul{
+        display: none;
+    }
+    .menu-bar-open{
+        display: block;
+        background:transparent;
+        clip-path: polygon(0 15%, 88% 15%, 100% 5%, 100% 100%, 0 100%);
+        top: 10%;
+        width: 82%;
+        height: 90vh;
+        position: absolute;
+        margin: 5rem auto;
+        padding-top: 5rem;
+        z-index: 10;
+        text-align: center;
+    }
+    .menu-bar-open li{
+        padding: .6rem 1.2rem;
+        margin-top: 1rem;
+        color: hsl(232, 10%, 55%);
+    }
+    .menu-bar-open li a, .menu-bar-open li a:active{
+        color: hsl(232, 10%, 55%);
+    }
+    .menu-bar-open li a:hover{
+        color: hsl(212, 27%, 19%);
+    }
+    .menu-bar-li:hover, .menu-bar-li:active{
+        border-radius: 30px;
+        background: hsl(51, 100%, 49%);
+        cursor: pointer;
+        text-transform: uppercase;
+        width: fit-content;
+        margin: 1rem auto;
+    }
+    .menu-icon-div{
+        display: block;
+    }
+
+    .card
+    {
+       display: none;
+    }
+ 
+    .section-2-heading
+    {
+        font-size: 3rem;
+    }
+
+    .symptoms-container-boxes {
+        flex-direction: column-reverse;
+        width: 100%;
+        align-items: normal;
+        margin-left: 2rem;
+    }
+    
+    .service-mini-box-image {
+        width: 100%;
+        height: auto;
+        margin-left: 25%;
+    }
+
+    .symptoms-mini-box-content
+    {
+        padding-left: 0rem;
+        padding-right: 0rem;
+        line-height: 2rem;
+    }
+
+    .symptoms-title
+    {
+        font-size: 1.5rem;
+        margin-top: 0px;
+    }
+
+    .precautions-2
+    {
+        flex-direction: row;
+    }
+
+    .precautions-mini-box
+    {
+        width: 100%;
+        display: flex;
+    }
+
+    .precautions-mini-box-content
+    {
+        padding-top: 2rem;
+        padding-left: 2rem;
+        padding-right: 0px;
+        line-height: 2rem;
+    }
+
+    .precautions-title
+    {
+        text-decoration: underline;
+    }
+
+    .services
+    {
+        padding: 2rem 0 3rem;
+    }
+
+    .services-outer-class {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .services-inner-class 
+    {
+        text-align: center;
+        width: 100%;
+        color: hsl(232, 10%, 55%);
+    }
+
+    .services-avatar {
+        border-radius: 30%;
+        height: 40%;
+        width: 40%;
+        border: 5px solid white;
+        border-radius: 32%;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    .services-title
+    {
+        margin-bottom: 0;
+    }
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    .site-logo{
+        font-size: 1rem;
+        font-weight: 900;
+        color: white;
+    }
+    .header-title--icon-div {
+        top: 25%;
+        left: 0;
+        right: 0;
+    }
+    .header-title--icon-div svg{
+        margin-top: 3rem;
+    }
+    .header-title{
+        padding: 0 2rem;
+        color: white;
+        font-size: 2rem;
+    }
+    .logo-menu-bar-div{
+        margin-top: 1.8rem;
+    }
+    .menu-bar-ul{
+        display: none;
+    }
+    .menu-bar-open{
+        display: block;
+        background:transparent;
+        clip-path: polygon(0 15%, 88% 15%, 100% 5%, 100% 100%, 0 100%);
+        top: 10%;
+        width: 82%;
+        height: 90vh;
+        position: absolute;
+        margin: 10rem auto;
+        padding-top: 5rem;
+        z-index: 10;
+        text-align: center;
+    }
+    .menu-bar-open li{
+        padding: .6rem 1.2rem;
+        margin-top: 1rem;
+        color: hsl(232, 10%, 55%);
+    }
+    .menu-bar-open li a, .menu-bar-open li a:active{
+        color: hsl(232, 10%, 55%);
+    }
+    .menu-bar-open li a:hover{
+        color: hsl(212, 27%, 19%);
+    }
+    .menu-bar-li:hover, .menu-bar-li:active{
+        border-radius: 30px;
+        background: hsl(51, 100%, 49%);
+        cursor: pointer;
+        text-transform: uppercase;
+        width: fit-content;
+        margin: 1rem auto;
+    }
+    .menu-icon-div{
+        display: block;
+    }
+
+    .card
+    {
+       display: none;
+    }
+ 
+    .section-2-heading
+    {
+        font-size: 3rem;
+    }
+
+    .symptoms-container-boxes {
+        flex-direction: column-reverse;
+        width: 100%;
+        align-items: normal;
+        margin-left: 2rem;
+    }
+    
+    .service-mini-box-image {
+        width: 100%;
+        height: auto;
+        margin-left: 25%;
+    }
+
+    .symptoms-mini-box-content
+    {
+        padding-left: 0rem;
+        padding-right: 0rem;
+        line-height: 2rem;
+    }
+
+    .symptoms-title
+    {
+        font-size: 1.5rem;
+        margin-top: 0px;
+    }
+
+    .precautions-2
+    {
+        flex-direction: row;
+    }
+
+    .precautions-mini-box
+    {
+        width: 100%;
+        display: flex;
+    }
+
+    .precautions-mini-box-content
+    {
+        padding-top: 2rem;
+        padding-left: 2rem;
+        padding-right: 0px;
+        line-height: 2rem;
+    }
+
+    .precautions-title
+    {
+        text-decoration: underline;
+    }
+
+    .services
+    {
+        padding: 2rem 0 3rem;
+    }
+
+    .services-outer-class {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .services-inner-class 
+    {
+        text-align: center;
+        width: 100%;
+        color: hsl(232, 10%, 55%);
+    }
+
+    .services-avatar {
+        border-radius: 30%;
+        height: 70%;
+        width: 70%;
+        border: 5px solid white;
+        border-radius: 32%;
+        align-items: center;
+        margin-top: 2rem;
+    }
+
+}
